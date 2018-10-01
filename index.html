@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Let's Learn Coding!</h1>
+        <nav>
+            <ul>
+                <strong>
+                    <li><a href="#">HTML5</a></li>
+                    <li><a href="#">Cascading Style Sheet (CSS)</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </strong>
+            </ul>
+        </nav>
+        </div>
+        <!--Navigation Menu-->
+        <!--Search bar-->
+    </header>
+    <section id="aboutUs">
+        <h1>Welcome to JavaScript</h1>
+        <p>JavaScript is used everywhere. You can use JavaScript to select any element,5 attribute, or text from an
+            HTML page. It allows you to make web pages more interactive by accessing and modifying the content and
+            markup used in a web page while it is being viewed in the browser.
+        </p>
+    </section>
+    <section id="main">
+        <div class="panel1">
+            <h3>Objects</h3>
+            <p>In JavaScript Variables are containers for data values. Objects are variables too except objects can
+                contain many values. Let's look at an example below:
+            </p>
+            <p>
+                <pre><code>
+            var person = {
+              firstName:"John",
+              lastName:"Doe",
+              age:50,
+              eyeColor:"blue"
+            };
+        </code></pre>
+            </p>
+        </div>
+        <div class="panel2">
+            <h3>Arrays</h3>
+            <p>We just learned a little about objects. Arrays are "list-like objects"; they are basically single
+                objects that contain multiple values stored in a list. If we didn't have arrays, we'd have to store
+                every item in a separate variable. Let's look at an example below:
+            </p>
+            <p>
+                <pre><code>
+var sequence = [1, 1, 2, 3, 5, 8, 13];
+  for (var i = 0; i < sequence.length; i++) {
+  console.log(sequence[i]);
+}
+</code></pre>
+            </p>
+        </div>
+        <div class="panel3">
+            <h3>For Loops</h3>
+            <p>
+                Loops are used to run the same bit of code over and over again, each time with a different variable.
+                For loops loop through a block of code a number of times. Let's look at a For Loop that adds all
+                numbers 1-50.
+            </p>
+            <p>
+                <pre><code>
+        let sum = 0;
+
+        for (let i = 1; i <= 50; i++) {
+            sum = sum + i
+        }
+        console.log(sum)
+                </code></pre>
+            </p>
+        </div>
+        <div class="panel4">
+            <h3>If Else Conditionals</h3>
+            <p>
+                the If Else executes a statement if a specified condition is truthy. If the condition is falsy ,
+                another statement can be executed. Let's look at an If Else statement that looks at the temperature and
+                determines if we should wear a jacket.
+            </p>
+            <p>
+                <pre><code>
+let temperature = 75;
+
+if (temperature < 70) {
+    console.log('Wear a jacket!');
+} else {
+    console.log('No jacket necessary!');
+}
+                </code></pre>
+            </p>
+        </div>
+        <div class="panel5">
+            <h3>Functions</h3>
+            <p>
+                A function is code that can be called by other code or by itself. When a function is called, arguments
+                are passed to the function as input, and the function can optionally return an output. This is also an
+                object. Let's look at a basic function.
+            </p>
+            <p>
+                <pre><code>
+let array = ['This', 'is', 'really', 'cool'];
+
+function cool() {
+    console.log('This')
+    console.log('is')
+    console.log('really')
+    console.log('cool')
+}
+
+cool()
+                </code></pre>
+            </p>
+        </div>
+        <div class="panel6">
+            <h3>Switches</h3>
+            <p>
+                A Switch is another type of conditional. It is very similar to If Else statements. It uses cases and
+                breaks instead of Ifs and Elses.
+            </p>
+            <p>
+                <pre><code>
+switch (dessert) {
+  case "pie":
+      console.log('Pie, pie, me oh my!')
+      break;
+  case "cake":
+      console.log('Cake is great!')
+      break;
+  case "ice cream":
+      console.log('I scream for ice cream!')
+      break;
+      default:
+      console.log('Not on the menu')
+}
+                </code></pre>
+            </p>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <footer>
+        <!--Legal items, navigational items-->
+        <span>&copy;2018 </span>
+        <ul id="menuFooter">
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Links</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

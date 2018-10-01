@@ -1,0 +1,153 @@
+/*Common elements*/
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background: url(./assets/blackAndWhiteBackground.jpg) no-repeat top center fixed;
+  padding: 0;
+  margin: 0;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+div.clear { 
+  clear:both;
+  font-size: 1%;
+}
+/*Header*/
+header {
+  border-radius: 1em;
+  text-align: center;
+  width: 800px;
+  height: 190px;
+  margin: auto;
+  background: url(./assets/codingNav2) center no-repeat;
+  background-size: 100%;
+}
+header h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 300%;
+}
+/*Nav Bars*/
+nav {
+  text-align: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 125%;
+  padding-top: 70px;
+}
+nav li a, nav li a:visited {
+  text-decoration: none;
+  color: white;
+  padding: .5em .5em;
+}
+nav li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 1em;
+}
+/*Main Section Opener*/
+#aboutUs {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  border-bottom: black solid 10px;
+}
+/*Main Section*/
+section#main {
+  padding-top: 25px;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 50px;
+}
+section div.panel1{
+  float: left;
+  position: relative;
+  width: 300px;
+  margin: 0 0.5em 2em 5em;
+  padding: 1.5em;
+  background-color: black;
+  color: white;
+  border-radius: 0.8em;
+  box-shadow: -10px -10px 10px white;
+ }
+ section div.panel2{
+  float: left;
+  position: relative;
+  width: 300px;
+  margin: 0 0.5em 2em 5em;
+  padding: 1.5em;
+  background-color: white;
+  border-radius: 0.8em;
+  box-shadow: 0px -10px 10px black;
+ }
+ section div.panel3{
+  float: left;
+  position: relative;
+  width: 300px;
+  margin: 0 0.5em 2em 5em;
+  padding: 1.5em;
+  background-color: black;
+  color: white;
+  border-radius: 0.8em;
+  box-shadow: 10px -10px 10px white;
+ }
+ section div.panel4{
+  float: left;
+  position: relative;
+  width: 300px;
+  margin: 0 0.5em 2em 5em;
+  padding: 1.5em;
+  background-color: white;
+  border-radius: 0.8em;
+  box-shadow: -10px 10px 10px black;
+ }
+ section div.panel5{
+  float: left;
+  position: relative;
+  width: 300px;
+  margin: 0 0.5em 2em 5em;
+  padding: 1.5em;
+  background-color: black;
+  color: white;
+  border-radius: 0.8em;
+  box-shadow: 0px 10px 10px white;
+ }
+ section div.panel6{
+  float: left;
+  position: relative;
+  width: 300px;
+  margin: 0 0.5em 2em 5em;
+  padding: 1.5em;
+  background-color: white;
+  border-radius: 0.8em;
+  box-shadow: 10px 10px 10px black;
+ }
+/*Footer*/
+footer {
+  text-align: center;
+  color: white;
+}
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+footer a:visited {
+  color: white;
+}
+footer a {
+  text-decoration: none;
+}
